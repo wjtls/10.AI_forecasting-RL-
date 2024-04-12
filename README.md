@@ -46,6 +46,9 @@
 
    ![image](https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/6bd5be55-800d-42c1-9438-261053cd904d)
 
+   ![image](https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/e8817954-a482-4b01-bc73-5d6ae379b0f8)
+
+
 
 
 
