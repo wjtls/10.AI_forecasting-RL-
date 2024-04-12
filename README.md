@@ -20,17 +20,22 @@
 ## 3. 오버피팅 문제 완화 노력
 
    - 가장 중요하게 여긴 부분은 데이터 이다. Raw 데이터를 예측 논리에 맞게 잘 커스텀하여 노이즈를 최소화하고 repaint 현상을 막는다.  (ex. 예측시 분포에서 잘나타나지 않는 특이 변수를 설명하기위한 지표 제작 등)
+     
    - 차원의 저주를 피하기 위해 주성분 분석을 통해 상관계수가 높은 데이터는 제거하여 사용
+   
    - 리플레이 버퍼를 사용함으로써 샘플효율성을 증대시킨다
+   
    - ![image](https://user-images.githubusercontent.com/60399060/146135720-9f131c45-c616-4383-bf87-f9235cf7f55f.png)
    - new policy가 old policy 와 크게 다르지않도록 Clipping 하기 때문에 논문에서 안정성이 높고 빠르다는 결과를 보인다. <br/>
-   
+
    - ![image](https://user-images.githubusercontent.com/60399060/146135945-5e1bd0e9-8ef7-49c2-9d41-b2ae8ebb9f25.png)
-   - GAE Advantage를 사용하여 Advantage를 잘추산한다. 이로인해 분산을 더 적절하게 감소 시킬수 있다.
+   - GAE Advantage를 사용하여 Advantage를 잘추산한다. 이로인해 분산을 더 적절하게 감소 시킬수 있다
+   - 
    - 신뢰 지역(Trust region) 에서 GAE를 구하고 r세타를 연산하는 덕에 buffer를 사용할수 있고 next batch에서 좋지않은 policy를 뽑을 경우 재사용하지 않는다
- 
+     
    - ![image](https://user-images.githubusercontent.com/60399060/146136194-aa3647e1-29a8-45f4-a21c-6d38884ab353.png)
    - 새로운 정책이 기존 정책에서 너무 멀리 바뀌는 것을 피하기 위해 대리 목표를 활용하여 min을 취함으로 샘플 효율성 문제를 해결한다.
+     
    - 정책 업데이트를 정규화하고 교육 데이터를 재사용할 수 있기 때문에 대리 목표는 핵심 기능이다. 따라서 on policy 알고리즘 이지만 on policy 의 수렴성과 대리목표(Surrogate loss) 사용으로 off policy의 장점인 샘플 효율성을 가지게 된다.
 
 
@@ -42,8 +47,8 @@
 
 
 
-## 6. 개선방안
-
+## 6. 문제와 개선방안
+   - 비동기 학습 및 리플레이버퍼, 그래디언트 클리핑
 
 
 
