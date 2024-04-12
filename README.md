@@ -44,7 +44,7 @@
 ## 5. 결과
    ![image](https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/04756254-e8de-4270-84ac-ea70a6426fa4)
 
-   ![image](https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/6bd5be55-800d-42c1-9438-261053cd904d)
+   ![image](https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/d3fd5db9-50df-401b-a6b7-93388253ecd7)
 
    ![image](https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/e8817954-a482-4b01-bc73-5d6ae379b0f8)
 
