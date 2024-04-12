@@ -30,7 +30,7 @@
 
    - ![image](https://user-images.githubusercontent.com/60399060/146135945-5e1bd0e9-8ef7-49c2-9d41-b2ae8ebb9f25.png)
    - GAE Advantage를 사용하여 Advantage를 잘추산한다. 이로인해 분산을 더 적절하게 감소 시킬수 있다
-   - 
+     
    - 신뢰 지역(Trust region) 에서 GAE를 구하고 r세타를 연산하는 덕에 buffer를 사용할수 있고 next batch에서 좋지않은 policy를 뽑을 경우 재사용하지 않는다
      
    - ![image](https://user-images.githubusercontent.com/60399060/146136194-aa3647e1-29a8-45f4-a21c-6d38884ab353.png)
@@ -39,15 +39,15 @@
    - 정책 업데이트를 정규화하고 교육 데이터를 재사용할 수 있기 때문에 대리 목표는 핵심 기능이다. 따라서 on policy 알고리즘 이지만 on policy 의 수렴성과 대리목표(Surrogate loss) 사용으로 off policy의 장점인 샘플 효율성을 가지게 된다.
 
 
-## 4. 타 알고리즘과 비교
-
-## 5. 결과
 
 
+## 4. 결과
 
 
 
-## 6. 문제와 개선방안
+
+
+## 5. 문제와 개선방안
    - 비동기 학습 및 리플레이버퍼, 그래디언트 클리핑
 
 
