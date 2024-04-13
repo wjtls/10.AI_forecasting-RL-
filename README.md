@@ -59,7 +59,7 @@ RL 인공지능으로 예측 및 최적행동 도출
      <img src="https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/2b59963b-01fb-4cb7-8d32-14e773316def" width="400" /> 
 
    </p>
-   - LSTM(왼쪽) 과 GRU(두번째) 랜덤포레스트(우측 농산물가격)예측 예시 <br/>
+   - LSTM(왼쪽) 과 GRU(두번째) 랜덤포레스트(아래 농산물가격)예측 예시 <br/>
    - 이들은 loss 감소를위해 전 시점의 가격을 도출하거나 편향이 있으므로 실제 예측을 하면 예측성능 저하 발생<br/><br/><br/>
    
    <p float="left">
