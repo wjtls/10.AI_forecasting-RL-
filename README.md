@@ -54,6 +54,9 @@
    - window 사이즈 
    
    ![image](https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/d3fd5db9-50df-401b-a6b7-93388253ecd7)
+   ![image](https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/b6a7297a-7052-48b1-808a-a2d45530e458)
+   ![image](https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/6f476551-b9a0-4c1b-920d-a8409cfdcc39)
+
 
    - MDD : 14%
    - PV return : 320% (수량 제한)
