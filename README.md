@@ -47,7 +47,7 @@ RL 인공지능으로 예측 및 최적행동 도출
 
 <br/><br/><br/><br/>
 
-## 4. 결과
+## 4. 결과/ 여러 데이터 예측
    ![image](https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/04756254-e8de-4270-84ac-ea70a6426fa4)
 
    - 예측 해야할 데이터 (2020년 ~ 2024년 가격데이터, 5379개)
@@ -87,6 +87,13 @@ RL 인공지능으로 예측 및 최적행동 도출
 
    - 4개의 에이전트중 첫번째 로컬 에이전트의 PV, reward, Critic loss, actor loss
    - 800 스탭이후부터 각 loss가 수렴하기 시작하고 PV 및 reward도 수렴을 시작한다
+     <br/><br/><br/>
+     
+   # 여러 데이터 테스트셋 예측 (2년 구간)
+   ![image](https://github.com/wjtls/10.AI_forecasting-RL-/assets/60399060/9b27cb4f-4f4a-4099-817d-159cb9041d68)
+   ![image](https://github.com/wjtls/10.AI_forecasting-RL-/assets/60399060/da8cbea0-aae7-46d9-a8d2-57979db675f4)
+
+
 
 
 
