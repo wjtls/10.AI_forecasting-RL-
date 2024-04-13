@@ -92,6 +92,7 @@ RL 인공지능으로 예측 및 최적행동 도출
    # 여러 데이터 테스트셋 예측 (2년 구간)
    ![image](https://github.com/wjtls/10.AI_forecasting-RL-/assets/60399060/9b27cb4f-4f4a-4099-817d-159cb9041d68)
    ![image](https://github.com/wjtls/10.AI_forecasting-RL-/assets/60399060/da8cbea0-aae7-46d9-a8d2-57979db675f4)
+   
 
 
 
