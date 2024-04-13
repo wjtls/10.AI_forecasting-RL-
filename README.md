@@ -1,4 +1,4 @@
-# AI_predictor-trading-
+# AI-Asynchronous RL--
 RL 인공지능으로 예측을 하고, 최적행동을 도출하여 자동화 단계까지 진행하는 모델
 
 <br/>
