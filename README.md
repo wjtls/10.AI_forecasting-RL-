@@ -56,8 +56,11 @@ RL 인공지능으로 예측 및 최적행동 도출
    <p float="left">
      <img src="https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/b6a7297a-7052-48b1-808a-a2d45530e458" width="400" />
      <img src="https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/6f476551-b9a0-4c1b-920d-a8409cfdcc39" width="400" /> 
+     <img src="https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/2b59963b-01fb-4cb7-8d32-14e773316def" width="400" /> 
+
    </p>
-   - LSTM(왼쪽) 과 GRU(오른쪽) 예측 (전 시점의 가격을 도출하여 실제 예측을 하면 오버피팅 발생)<br/><br/><br/>
+   - LSTM(왼쪽) 과 GRU(두번째) 랜덤포레스트(우측 농산물가격)예측 예시 <br/><br/><br/>
+   - 전 시점의 가격을 도출하여 실제 예측을 하면 오버피팅 발생
    
    <p float="left">
      <img src="https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/d9974cd8-d623-45a4-9ebb-58ef5898d101" width="400" height='300'/>
