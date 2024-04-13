@@ -58,8 +58,12 @@ RL 인공지능으로 예측 및 최적행동 도출
      <img src="https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/6f476551-b9a0-4c1b-920d-a8409cfdcc39" width="400" /> 
    </p>
    - LSTM(왼쪽) 과 GRU(오른쪽) 예측 (전 시점의 가격을 도출하여 실제 예측을 하면 오버피팅 발생)<br/><br/>
+   
+   <p float="left">
+     <img src="https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/d9974cd8-d623-45a4-9ebb-58ef5898d101" width="400" />
+     <img src="https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/bf9e5935-ffef-4bbb-b45c-b14641a7a7e7" width="400" /> 
+   </p>
 
-   ![image](https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/d3fd5db9-50df-401b-a6b7-93388253ecd7)<br/>
    - 현모델의 예측<br/>
    - MDD : 14%
    - PV return : 320% (수량 제한)
