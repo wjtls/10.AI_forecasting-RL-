@@ -1,5 +1,5 @@
 # AI_predictor-trading-
-인공지능으로 예측 및 최적행동 도출 
+RL 인공지능으로 예측 및 최적행동 도출 
 
 <br/>
 <br/>
@@ -54,9 +54,10 @@
    - window 사이즈 
    
    ![image](https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/d3fd5db9-50df-401b-a6b7-93388253ecd7)
+   - 현모델의 예측
    ![image](https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/b6a7297a-7052-48b1-808a-a2d45530e458)
    ![image](https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/6f476551-b9a0-4c1b-920d-a8409cfdcc39)
-
+   - LSTM(왼쪽) 과 GRU(오른쪽) 예측 (전 시점의 가격을 도출하여 실제 예측을 하면 오버피팅 발생)
 
    - MDD : 14%
    - PV return : 320% (수량 제한)
