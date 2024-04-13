@@ -61,7 +61,7 @@ RL 인공지능으로 예측 및 최적행동 도출
    
    <p float="left">
      <img src="https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/d9974cd8-d623-45a4-9ebb-58ef5898d101" width="400" />
-     <img src="https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/bf9e5935-ffef-4bbb-b45c-b14641a7a7e7" width="400" /> 
+     <img src="https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/bf9e5935-ffef-4bbb-b45c-b14641a7a7e7" width="400" high='400' /> 
    </p>
 
    - 현모델의 예측<br/>
