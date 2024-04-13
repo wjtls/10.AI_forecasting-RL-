@@ -53,16 +53,14 @@ RL 인공지능으로 예측 및 최적행동 도출
    - 예측 해야할 데이터 (2020년 ~ 2024년 가격데이터, 5379개)
    - window 사이즈 
    
-   ![image](https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/d3fd5db9-50df-401b-a6b7-93388253ecd7)<br/>
-   - 현모델의 예측<br/>
-   ![image](https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/b6a7297a-7052-48b1-808a-a2d45530e458) ![image](https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/6f476551-b9a0-4c1b-920d-a8409cfdcc39)<br/>
-   - LSTM(왼쪽) 과 GRU(오른쪽) 예측 (전 시점의 가격을 도출하여 실제 예측을 하면 오버피팅 발생)
    <p float="left">
-      <img src="https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/d3fd5db9-50df-401b-a6b7-93388253ecd7" width="400" />
      <img src="https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/b6a7297a-7052-48b1-808a-a2d45530e458" width="400" />
      <img src="https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/6f476551-b9a0-4c1b-920d-a8409cfdcc39" width="400" /> 
    </p>
+   - LSTM(왼쪽) 과 GRU(오른쪽) 예측 (전 시점의 가격을 도출하여 실제 예측을 하면 오버피팅 발생)
 
+   ![image](https://github.com/wjtls/10.AI_predictor-trading-/assets/60399060/d3fd5db9-50df-401b-a6b7-93388253ecd7)<br/>
+   - 현모델의 예측<br/>
    - MDD : 14%
    - PV return : 320% (수량 제한)
    - 가장 위는 AI가 예측한 수치를 토대로 최적행동을 하고, 가격을 잘예측하면 수치가 상승/ 예측에 실패하면 하락하게 된다. 학습구간/ 테스트셋 구간에서 잘예측했다 
