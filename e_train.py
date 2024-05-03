@@ -17,9 +17,9 @@ torch.manual_seed(seed)
 
 
 trading_site = 'binance'   #binance , upbit
-Binance_API_key ='UbZY1zLAszLRdug'
-Binance_Secret_key ='C3QO3OuzBBPUcmRdkFmmOyOT'
-Slack_token = "xoxb-1993zzsoczfBuyW34aHIyNZtP"  # slack 토큰
+Binance_API_key ='api_key'
+Binance_Secret_key ='key'
+Slack_token = "token"  # slack 토큰
 
 API_coin_name='ETH' #코인명
 API_data_name='ETH/USDT' # 바이낸스 API에서 불러올 이름####################################################
